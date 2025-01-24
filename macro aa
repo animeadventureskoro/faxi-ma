@@ -1,0 +1,358 @@
+getgenv().Config = {
+    ["AutoTP"] = {
+        ["Enabled"] = false,
+        ["Time"] = 10,
+        ["NewChallenge"] = false
+    },
+    ["Skins"] = {
+        ["SelectedSkins"] = {},
+        ["DeleteSkins"] = false
+    },
+    ["SmartAutoPlace"] = {
+        ["Enabled"] = true,
+        ["Hologram"] = true,
+        ["HillPercent"] = 50,
+        ["Distance"] = 100,
+        ["GroundPercent"] = 50
+    },
+    ["Webhook"] = {
+        ["Ping"] = true,
+        ["SecretPing"] = true,
+        ["URL"] = "https://discord.com/api/webhooks/1331539780168581192/sieJ0E1RyJJWs5VHwDwpr6Ah3tD5FE-J3IxyMIMHZctdCMF6Om1uysggjg4FkbUG9B40",
+        ["PingMaxWorthiness"] = false,
+        ["ShowDamage"] = true,
+        ["ShowEndCards"] = true,
+        ["ShowUnits"] = true,
+        ["WorthinessUnit"] = {},
+        ["ID"] = "1313464791947415562",
+        ["Url"] = "",
+        ["Result"] = true,
+        ["PingDefeat"] = false
+    },
+    ["SummonSniper"] = {
+        ["SpecifiedGems"] = 0,
+        ["SendWebhook"] = false,
+        ["TargetUnits"] = {},
+        ["Mode"] = "Until Target Hit",
+        ["Enabled"] = false
+    },
+    ["AutoChallenge"] = {
+        ["IgnoreWorlds"] = {},
+        ["Enabled"] = false,
+        ["IgnoreModifiers"] = {},
+        ["IgnoreChallenge"] = {}
+    },
+    ["Summon"] = {
+        ["BuyTen"] = false,
+        ["Banners"] = {
+            ["EventClover"] = true
+        },
+        ["TargetUnits"] = {},
+        ["SendWebhook"] = false,
+        ["Enabled"] = false,
+        ["RemoveHatchEffect"] = false,
+        ["Mode"] = "All Gems",
+        ["SpecifiedGems"] = 0,
+        ["StopWhenHit"] = false
+    },
+    ["SellUnits"] = {
+        ["Enabled"] = false,
+        ["SelectedShinyRarity"] = {},
+        ["MaxLevel"] = 1,
+        ["SelectedRarity"] = {}
+    },
+    ["UI"] = {
+        ["ShowUserInfo"] = false,
+        ["Notification"] = true,
+        ["Scale"] = 0.8
+    },
+    ["AutoAbility"] = {
+        ["Enabled"] = false,
+        ["Wave"] = 0,
+        ["Mode"] = "",
+        ["BossTime"] = 0,
+        ["SelectedUnits"] = {}
+    },
+    ["Misc"] = {
+        ["FakeOutfit"] = false,
+        ["AntiAFKChamber"] = false,
+        ["HideName"] = false,
+        ["PlaceAnywhere"] = false,
+        ["FPSLimit"] = 60,
+        ["BlackScreen"] = false,
+        ["BetterFPSBoost"] = false,
+        ["FPSBoost"] = false,
+        ["AutoExecute"] = false,
+        ["AutoReconnect"] = false,
+        ["HideMap"] = false,
+        ["HideOnOpen"] = false
+    },
+    ["Matchmake"] = {
+        ["Enabled"] = false,
+        ["Selected"] = "",
+        ["Mode"] = "Infinite"
+    },
+    ["AutoWave"] = {
+        ["AutoPlace"] = false,
+        ["Upgrade"] = true,
+        ["SellUnitsOnWave"] = 1,
+        ["SellFarmsOnWave"] = 1,
+        ["UpgradeOnWave"] = 1,
+        ["Leave"] = false,
+        ["SellUnits"] = false,
+        ["FocusFarms"] = true,
+        ["SellFarms"] = false,
+        ["LeaveOnWave"] = false
+    },
+    ["AutoCap"] = {
+        ["Place"] = {},
+        ["Wave"] = {
+            ["Unit6"] = 2,
+            ["Unit4"] = 0
+        },
+        ["UpgradeWave"] = {
+            ["Unit6"] = 2,
+            ["Unit3"] = 40,
+            ["Unit1"] = 8,
+            ["Unit4"] = 50,
+            ["Unit5"] = 35,
+            ["Unit2"] = 35
+        },
+        ["Upgrade"] = {
+            ["Unit1"] = 10,
+            ["Unit3"] = 10,
+            ["Unit4"] = 10,
+            ["Unit6"] = 10,
+            ["Unit5"] = 10,
+            ["Unit2"] = 10
+        }
+    },
+    ["DeletePortal"] = {
+        ["Difficulty"] = {},
+        ["IgnoreWorld"] = {},
+        ["Selected"] = {},
+        ["Tiers"] = {},
+        ["Enabled"] = false,
+        ["IgnoreBonus"] = {}
+    },
+    ["WalkAutoJoin"] = false,
+    ["PlayerProtection"] = {
+        ["Enabled"] = false,
+        ["SelectedPlayers"] = {},
+        ["LeaveWhenOtherPlayers"] = false,
+        ["WaitTime"] = 90,
+        ["AutoLeave"] = false
+    },
+    ["Capsules"] = {
+        ["AutoOpen"] = false,
+        ["IgnoreCapsules"] = {}
+    },
+    ["AutoBuy"] = {
+        ["Event"] = {
+            ["Enabled"] = false,
+            ["Selected"] = {
+                ["capsule_christmas2"] = true
+            }
+        },
+        ["GoldShop"] = {
+            ["Enabled"] = false,
+            ["Selected"] = {}
+        },
+        ["TravellingMerchant"] = {
+            ["Enabled"] = false,
+            ["Selected"] = {}
+        }
+    },
+    ["AutoCastle"] = {
+        ["Enabled"] = false,
+        ["Room"] = 500,
+        ["Hard"] = false
+    },
+    ["DailyChallengeMatchmake"] = false,
+    ["CardPicker"] = {
+        ["BuffWave"] = 50,
+        ["IgnoreBuffs"] = {
+            ["Double Attack, Half Range"] = true,
+            ["Active Cooldown II"] = true,
+            ["Random Blessings I"] = true,
+            ["Active Cooldown I"] = true,
+            ["Random Blessings III"] = true,
+            ["Double Attack, Double Cooldown"] = true,
+            ["Random Blessings II"] = true,
+            ["Gain 2 Random Effects Tier 3"] = true,
+            ["Active Cooldown III"] = true,
+            ["Gain 2 Random Effects Tier 1"] = true,
+            ["Gain 2 Random Effects Tier 2"] = true
+        },
+        ["DebuffWave"] = 50,
+        ["PriorityDebuffs"] = {
+            ["Enemy Speed I"] = 5,
+            ["Enemy Health III"] = 95,
+            ["Enemy Regen II"] = 79,
+            ["Random Curses I"] = 0,
+            ["New Path"] = 100,
+            ["Enemy Health II"] = 90,
+            ["Enemy Regen I"] = 45,
+            ["Enemy Speed II"] = 45,
+            ["Explosive Deaths III"] = 50,
+            ["Enemy Shield III"] = 95,
+            ["Random Curses II"] = 0,
+            ["Explosive Deaths II"] = 30,
+            ["Enemy Regen III"] = 91,
+            ["Explosive Deaths I"] = 0,
+            ["Enemy Health I"] = 30,
+            ["Enemy Shield I"] = 0,
+            ["Enemy Shield II"] = 50,
+            ["Enemy Speed III"] = 80
+        },
+        ["DebuffOnly"] = true,
+        ["PriorityBuffs"] = {
+            ["Double Range"] = 100,
+            ["Random Blessings I"] = 0,
+            ["Active Cooldown I"] = 0,
+            ["Range II"] = 96,
+            ["Random Blessings III"] = 0,
+            ["Yen II"] = 0,
+            ["Double Attack, Double Cooldown"] = 0,
+            ["Attack III"] = 95,
+            ["Boss Damage II"] = 1,
+            ["Double Attack"] = 100,
+            ["Gain 2 Random Effects Tier 2"] = 0,
+            ["Range III"] = 100,
+            ["Yen I"] = 0,
+            ["Cooldown I"] = 10,
+            ["Active Cooldown III"] = 0,
+            ["Attack I"] = 45,
+            ["Yen III"] = 0,
+            ["Cooldown II"] = 20,
+            ["Attack II"] = 90,
+            ["Gain 2 Random Effects Tier 1"] = 0,
+            ["Random Blessings II"] = 0,
+            ["Range I"] = 85,
+            ["Double Attack, Half Range"] = 0,
+            ["Gain 2 Random Effects Tier 3"] = 0,
+            ["Boss Damage I"] = 1,
+            ["Active Cooldown II"] = 0,
+            ["Cooldown III"] = 0
+        },
+        ["HighDebuffWave"] = 50,
+        ["LimitersEnabled"] = {
+            ["Enemy Speed"] = true
+        },
+        ["BuffOnly"] = false,
+        ["Limiters"] = {
+            ["Enemy Speed"] = 100
+        },
+        ["IgnoreDebuffs"] = {
+            ["Random Curses III"] = true,
+            ["Enemy Speed I"] = true,
+            ["Enemy Regen III"] = true,
+            ["Enemy Regen I"] = true,
+            ["Explosive Deaths I"] = true,
+            ["Random Curses II"] = true,
+            ["Enemy Regen II"] = true,
+            ["Random Curses I"] = true
+        },
+        ["HighDebuffOnly"] = false,
+        ["Enabled"] = true
+    },
+    ["JoinPriority"] = {
+        ["1"] = "Auto Join Main",
+        ["3"] = "Auto Event",
+        ["2"] = "Auto Challenge",
+        ["5"] = "Auto Infinite Castle",
+        ["4"] = "Auto Portal",
+        ["7"] = "Auto Matchmake",
+        ["6"] = "Auto Join Player",
+        ["9"] = "Auto Daily Challenge Matchmake",
+        ["8"] = "Auto Cursed Womb",
+        ["10"] = "Auto Daily Challenge Matchmake"
+    },
+    ["PlaceRedZone"] = true,
+    ["Quests"] = {
+        ["AutoBattlepass"] = false,
+        ["AutoTakeDaily"] = false,
+        ["AutoClaim"] = false,
+        ["AutoTakeNami"] = false
+    },
+    ["JoinPlayer"] = {
+        ["Enabled"] = false,
+        ["Selected"] = {}
+    },
+    ["Macro"] = {
+        ["StepDelay"] = 4,
+        ["Default"] = "macru",
+        ["CharacterRandomMovements"] = false,
+        ["RecordOptions"] = {},
+        ["Selected"] = {
+            ["Other"] = {},
+            ["Story"] = {},
+            ["Main"] = {},
+            ["Portal"] = {},
+            ["Raid"] = {},
+            ["Holiday"] = {},
+            ["Tower"] = {}
+        },
+        ["Enabled"] = false
+    },
+    ["Takedowns"] = {
+        ["ShowTakedown"] = false,
+        ["Colored"] = false
+    },
+    ["revc0"] = true,
+    ["AutoStartDelay"] = 3,
+    ["AutoPortal"] = {
+        ["Enabled"] = false,
+        ["Tiers"] = {
+            [1] = "0"
+        },
+        ["WaitForPlayers"] = 1,
+        ["StartAfterTime"] = 1,
+        ["Difficulty"] = {},
+        ["IgnoreWorld"] = {},
+        ["Selected"] = {},
+        ["FriendsOnly"] = false,
+        ["IgnoreBonus"] = {}
+    },
+    ["AutoEvent"] = {
+        ["Enabled"] = false,
+        ["SoloOnly"] = false,
+        ["SelectedEvent"] = ""
+    },
+    ["AutoJoin"] = {
+        ["Difficulty"] = "Normal",
+        ["Act"] = "Act1",
+        ["Enabled"] = false,
+        ["Mode"] = "Story",
+        ["FriendsOnly"] = false,
+        ["Map"] = "Planet Greenie"
+    },
+    ["AutoStart"] = false,
+    ["Auto"] = {
+        ["Skip"] = true,
+        ["Leave"] = false,
+        ["Next"] = true,
+        ["Replay"] = true,
+        ["StartGame"] = true,
+        ["Speed"] = false,
+        ["NextPortal"] = false
+    },
+    ["AutoPlacePosition"] = {},
+    ["CursedWomb"] = {
+        ["AutoJoin"] = false,
+        ["SoloOnly"] = false
+    },
+    ["AutoBuff"] = {
+        ["Wenda"] = true,
+        ["SelectedUnits"] = {
+            ["Shadowgirl (Time Traveller)"] = true,
+            ["Menace (Terror)"] = true
+        },
+        ["Erwin"] = false,
+        ["Enabled"] = true,
+        ["SkillWave"] = 1,
+        ["BossOnly"] = false,
+        ["Leafy"] = false,
+        ["SacrificeGriffin"] = false
+    }
+}
